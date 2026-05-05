@@ -1,12 +1,19 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Tienda de Videojuegos</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/script.js' %}"></script>
 </head>
 <body>
     <h1>Bienvenido a la tienda de videojuegos</h1>
     <p>Explora nuestra amplia selección de juegos para todas las plataformas.</p>
+
+    <img src="{% static 'img/portada.jpg' %}" alt="Portada de la tienda" width="100%">
+
 
     <footer>
         <p>Copyright © 2023 Tienda de Videojuegos</p>
